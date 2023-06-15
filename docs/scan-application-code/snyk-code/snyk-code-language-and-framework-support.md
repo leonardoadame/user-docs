@@ -1,7 +1,7 @@
 # Snyk Code - Supported languages and frameworks
 
 {% hint style="info" %}
-For environments supported with other Snyk products, see: [Snyk Open Source - supported languages and package managers](../snyk-open-source/snyk-open-source-supported-languages-and-package-managers/), [Snyk Container - Supported operating system distributions](../../scan-containers/how-snyk-container-works/supported-operating-system-distributions.md), and [Snyk IaC and Cloud - Supported providers](../../scan-cloud-deployment/supported-iac-and-cloud-providers.md).
+For environments supported with other Snyk products, see: [Snyk Open Source - supported languages and package managers](../snyk-open-source/snyk-open-source-supported-languages-and-package-managers/), [Snyk Container - Supported operating system distributions](../../scan-containers/how-snyk-container-works/supported-operating-system-distributions.md), and [Snyk IaC and Cloud - Supported providers](../../scan-cloud-configurations/supported-iac-and-cloud-providers.md).
 {% endhint %}
 
 ## Language support with Snyk Code AI Engine
@@ -24,11 +24,15 @@ Snyk Code currently supports the following programming languages:
 * **Go**
 * **Java**
 * **JavaScript**
-* **PHP**
+* **PHP (currently does not support interfile)**
 * **Python**
 * **Ruby**
 * **TypeScript**
 * **Apex**
+* **Scala (Beta)**
+* **Swift (Beta)**
+* **Kotlin (Beta)**
+* **VB.NET (Beta)**
 
 {% hint style="info" %}
 Beta support exists for Kotlin, Scala and Swift. Contact Snyk for more details or with your further needs.

@@ -179,7 +179,7 @@ To use this feature, follow these steps:
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (3).png" alt="Set an account to open Snyk PRs" width="563"><figcaption><p>Set an account to open Snyk PRs</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (3) (1).png" alt="Set an account to open Snyk PRs" width="563"><figcaption><p>Set an account to open Snyk PRs</p></figcaption></figure>
 
 </div>
 
@@ -253,8 +253,16 @@ Revoking this access effectively disconnects Snyk’s access to that GitHub acco
 
 In addition, you must confirm that Snyk is not enabled on any existing **Branch protection rules.**
 
+{% hint style="info" %}
+Note that branch protection is active only after a PR has been raised.
+{% endhint %}
+
 1. From the main page of your GitHub repository, go to **Settings > Branches > Branch protection rules.**
 2. Ensure there are no **Status checks found in the last week for this repository.**
+
+{% hint style="info" %}
+A disconnected GitHub integration will still appear as configured in the Integrations menu of the Snyk UI. However, clicking on the integration settings will show that it is not connected. In this case, the "configured" integration can safely be ignored.&#x20;
+{% endhint %}
 
 ## GitHub badges
 

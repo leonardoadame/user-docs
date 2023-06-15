@@ -3,7 +3,7 @@
 About supported operating system distributions
 
 {% hint style="info" %}
-For environments supported with other Snyk products, see: [Snyk Open Source - supported languages and package managers](../../scan-application-code/snyk-open-source/snyk-open-source-supported-languages-and-package-managers/), [Snyk Code - Supported languages and frameworks](../../scan-application-code/snyk-code/snyk-code-language-and-framework-support.md), and [Snyk IaC and Cloud - Supported providers](../../scan-cloud-deployment/supported-iac-and-cloud-providers.md).
+For environments supported with other Snyk products, see: [Snyk Open Source - supported languages and package managers](../../scan-application-code/snyk-open-source/snyk-open-source-supported-languages-and-package-managers/), [Snyk Code - Supported languages and frameworks](../../scan-application-code/snyk-code/snyk-code-language-and-framework-support.md), and [Snyk IaC and Cloud - Supported providers](../../scan-cloud-configurations/supported-iac-and-cloud-providers.md).
 {% endhint %}
 
 Snyk Container supports the operating system distributions listed on this page.
@@ -62,6 +62,7 @@ For unsupported distributions, you may not receive any notifications of vulnerab
 ### [Debian](https://www.debian.org/)
 
 * Unstable
+* Debian 13
 * Debian 12
 * Debian 11
 * Debian 10
